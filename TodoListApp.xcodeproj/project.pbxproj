@@ -13,6 +13,8 @@
 		67977FB52957BAD70094E00C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67977FB32957BAD70094E00C /* Main.storyboard */; };
 		67977FB72957BADA0094E00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67977FB62957BADA0094E00C /* Assets.xcassets */; };
 		67977FBA2957BADA0094E00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67977FB82957BADA0094E00C /* LaunchScreen.storyboard */; };
+		67977FC22957BD330094E00C /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67977FC12957BD330094E00C /* CalendarHelper.swift */; };
+		67977FC42957BD5F0094E00C /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67977FC32957BD5F0094E00C /* CalendarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		67977FB62957BADA0094E00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67977FB92957BADA0094E00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67977FBB2957BADA0094E00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67977FC12957BD330094E00C /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		67977FC32957BD5F0094E00C /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 				67977FAF2957BAD70094E00C /* SceneDelegate.swift */,
 				67977FB12957BAD70094E00C /* ViewController.swift */,
 				67977FB32957BAD70094E00C /* Main.storyboard */,
+				67977FC12957BD330094E00C /* CalendarHelper.swift */,
 				67977FB62957BADA0094E00C /* Assets.xcassets */,
 				67977FB82957BADA0094E00C /* LaunchScreen.storyboard */,
+				67977FC32957BD5F0094E00C /* CalendarCell.swift */,
 				67977FBB2957BADA0094E00C /* Info.plist */,
 			);
 			path = TodoListApp;
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				67977FB22957BAD70094E00C /* ViewController.swift in Sources */,
+				67977FC22957BD330094E00C /* CalendarHelper.swift in Sources */,
 				67977FAE2957BAD70094E00C /* AppDelegate.swift in Sources */,
 				67977FB02957BAD70094E00C /* SceneDelegate.swift in Sources */,
+				67977FC42957BD5F0094E00C /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
